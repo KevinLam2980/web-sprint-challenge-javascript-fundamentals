@@ -17,7 +17,7 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-// nestedFuction has access to internal because it has access to the outer scope/lexical enviroment of its own function. The function cannot find the variable it it's own scope, so it reaches outwards to the function it is nested in.
+// nestedFuction has access to internal because it has access to the outer scope/lexical enviroment of its own function. The function cannot find the variable in it's own scope, so it reaches outwards to the function it is nested in.
 
 /* Task 2: Counter */
 
