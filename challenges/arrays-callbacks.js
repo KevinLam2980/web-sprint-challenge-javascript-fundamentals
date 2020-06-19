@@ -87,7 +87,7 @@ function consume(a, b, cb){
 */
 
 function add(num1, num2){
-  return num1 + num2;
+   return num1 + num2;
 }
 
 function multiply(num1, num2){
@@ -116,3 +116,4 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
+//I think I did :) 
