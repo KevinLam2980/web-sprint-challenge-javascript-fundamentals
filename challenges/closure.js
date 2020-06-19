@@ -25,11 +25,14 @@ myFunction();
 
 
 function summation(num){
-  counter = 0;
-  for(let i = 0; i <= num; i++){
-    counter += i;
+  let counter = 0;
+  function adder(){
+    for(let i = 0; i <= num; i++){
+      counter += i;
   }
-  return counter;
+}
+adder()
+return counter;
 }
 
 console.log(summation(4));
